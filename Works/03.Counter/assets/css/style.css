@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #E4E9F7;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.Logo i {
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+.Main {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MainContainer {
+    background-color: #11101D;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContainer .Num {
+    margin-right: 10%;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none;
+    color: #E4E9F7;
+    background: #1d1b31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainContainer .Num span {
+    font-size: 30px;
+    color: #E4E9F7;
+}
+
+.ContainerItems button {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 23px;
+    border-radius: 50%;
+    border: none;
+    color: #E4E9F7;
+    background: #1d1b31;
+}
+
+.up {
+    margin-bottom: 20%;
+}
+
+.down {
+    margin-top: 20%;
+}
