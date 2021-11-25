@@ -27,4 +27,5 @@
     
 ### Tədris müddətində yazdığım məqalələr
 - [IDE və Code Editor arasındakı fərqlər](https://medium.com/@thehamidov42/ide-v%C9%99-code-editor-aras%C4%B1ndak%C4%B1-f%C9%99rql%C9%99r-5aa96129b0ec)
+- [Python Variables](https://medium.com/@thehamidov42/python-variables-a08a9404614f)
 - [Python Data Types]()
