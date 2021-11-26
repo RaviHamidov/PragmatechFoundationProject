@@ -21,6 +21,10 @@
     - [Kodlar](https://github.com/RaviHamidov/07.AutoTextWriter)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3.
 
+- [Digital Rain](https://ravihamidov.github.io/06.DigitalRain/)
+    - [Kodlar](https://github.com/RaviHamidov/06.DigitalRain)
+    - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript.
+
 - [Rock,Paper or Scissors Game](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/06.RockPaperScissorsGame)
     - [Kodlar](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/06.RockPaperScissorsGame)
     - İşdə istifadə olunan texnologiyalar: Python.
