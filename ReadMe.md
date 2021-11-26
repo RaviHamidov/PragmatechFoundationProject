@@ -21,7 +21,7 @@
     - [Kodlar](https://github.com/RaviHamidov/07.AutoTextWriter)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3.
 
-- [Digital Rain](https://ravihamidov.github.io/06.DigitalRain/)
+- [Digital Rain ( Matrix edition )](https://ravihamidov.github.io/06.DigitalRain/)
     - [Kodlar](https://github.com/RaviHamidov/06.DigitalRain)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript.
 
