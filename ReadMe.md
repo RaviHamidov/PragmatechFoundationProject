@@ -17,7 +17,7 @@
     - [Kodlar](https://ravihamidov.github.io/06.Counter/)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript.
 
-- [AutoTextWriter](https://ravihamidov.github.io/07.AutoTextWriter/)
+- [AutoTextWriter](https://ravihamidov.github.io/05.AutoTextWriter/)
     - [Kodlar](https://github.com/RaviHamidov/07.AutoTextWriter)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3.
 
