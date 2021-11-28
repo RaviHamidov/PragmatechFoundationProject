@@ -16,8 +16,8 @@ while True:
         ad = input('Telebenin adi : ')
         soyad = input('Telebenin soyadi : ')
         email = input('Telebenin emaili : ')
-        password = input('Telebenin password : ')
-        phone = input('Telebenin phone : ')
+        password = input('Telebenin passwordu : ')
+        phone = input('Telebenin phoneu : ')
 
         stud = Student(ad,soyad,email,password,phone)
 
