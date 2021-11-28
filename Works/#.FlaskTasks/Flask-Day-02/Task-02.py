@@ -1,5 +1,4 @@
 users = []
-from tkinter import *
 
 def show_profile():
 
@@ -26,12 +25,12 @@ def register():
     brief_information=input('brief_information: ')
 
     user={
-        'name':name,
-        'surname':surname,
-        'email':email,
-        'phone':phone,
-        'password':password,
-        'brief_information':brief_information
+        'name' : name,
+        'surname' : surname,
+        'email' : email,
+        'phone' : phone,
+        'password' : password,
+        'brief_information' : brief_information
     }
     users.append(user)
 
