@@ -2,14 +2,24 @@ from oop import Student,students,showStudents
 
 while True:
 
-    emr = input('Yeni telebe yaradilsin mi (Y/N) :')
+    print("""   
+    - esas menu
+        - qeydiyyat ucun 1 e basin .
+        - profile daxil olmaq ucun 2 e basin .
+        - programdan cxmaq ucun esc e basn .
+   """)
 
-    if emr == 'Y':
+    emr = int(input('istediyin emelyatin nomresini qeyd ele ! :'))
 
-        ad = input('Telebenin adi:')
-        soyad = input('Telebenin soyadi:')
+    if emr == '1':
 
-        stud = Student(ad,soyad)
+        ad = input('Telebenin adi : ')
+        soyad = input('Telebenin soyadi : ')
+        email = input('Telebenin emaili : ')
+        password = input('Telebenin password : ')
+        phone = input('Telebenin phone : ')
+
+        stud = Student(ad,soyad,email,password,phone)
 
         stud.AddToData()
 
