@@ -1,5 +1,20 @@
 users = []
 
+def show_profile():
+
+    for user in users:
+        print(f'''{user["name"]} 
+                  {user["surname"]}
+                  {user["email"]}
+                  {user["phone"]}
+                  {user["password"]}
+                  {user["brief_information"]}''')
+
+def enter_profile():
+
+    email=input('type email: ')
+    password=input('type password: ')
+
 def register():
 
     name=input('user name : ')
@@ -7,9 +22,7 @@ def register():
     email=input('user email: ')
     phone=input('user phone: ')
     password=input('user password: ')
-    brief_information=input('brief information: ')
-    
-    
+    brief_information=input('brief_information: ')
 
     user={
         'name':name,
