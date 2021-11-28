@@ -1,4 +1,4 @@
-from oop import qeydiyyat, student, showallusers
+from oop import qeydiyyat, student
 
 while True:
 
@@ -17,8 +17,8 @@ while True:
         userinfo=input("Insert the info about the user: ")
 
         user=qeydiyyat(username, usersurname, useremail, userphone, userpassword, userinfo)
+        
         student.append(user)
-        showallusers()
 
     else:
         break
