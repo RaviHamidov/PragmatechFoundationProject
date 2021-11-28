@@ -3,8 +3,10 @@ student=[]
 import re
 regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
 
-class registration():
+class qeydiyyat():
+
     def _init_(self, name, surname, email, phone, password, brief_info):
+        
         self.name = name
         self.surname = surname
         self.email = email
@@ -37,17 +39,17 @@ class registration():
             print("error")
 
     def detect_numbers(self):
-        self.phone == input(int(" nomre daxil edin : +994 "))
+        self.phone == input(int('nomre daxil edin : +994 '))
 
     def user_password(self):
-        self.password=input(str("Parolu daxil et: "))
+        self.password=input(str('parolu daxil et : '))
         val = True
         
-        if len(self.password) < 8:
+        if len(self.password) <= 8:
             print('Minimum 8 xarakterden ibaret olmalidir qaqash')
             val = False
             
-        if len(self.password) > 20:
+        if len(self.password) >= 20:
             print('Maksimum 20 xarakterden ibaret olmalidir')
             val = False
             
@@ -71,3 +73,7 @@ class registration():
             print("error")
         else:
             return
+
+class daxil_ol():
+
+    print("nese")
