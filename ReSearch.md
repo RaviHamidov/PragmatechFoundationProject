@@ -86,5 +86,3 @@
                 - store_surname
                 - store_salary
             )
-
-
