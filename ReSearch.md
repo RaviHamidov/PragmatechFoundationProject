@@ -45,6 +45,10 @@
     - JSON (javascript Object Notation) — sadə verilənlər strukturlarını təmsil etmək üçün nəzərdə tutulmuş bir standalone məlumat mübadiləsi formatıdır. Əsasən iki sistem arasında məlumat mübadiləsi üçün istifadə olunur. Məsələn, JSON-dan istifadə edərək server və veb tətbiqi arasında məlumat ötürə bilərsiniz.
 
 
+- PIP
+    - PIP python paketlərini idarə etmə sistemidir.PIP vasitəsi ilə python proqram təminatı paketlərini yükləmək və idarə etmək mümkündür,PIP Python paketləri və ya istəsəniz modullar üçün paket meneceridir.
+
+
 - Web Server 
 
     - Web Server istifadəçilərin internetdəki web-səhifələrə və digər verilənlərə daxil olmasına şərait yaradan xüsusi proqramlar ilə təmin olunmuş kompüterdir. Web-server web-saytın əsasını təşkil edir. Web-server informasiyaların saxlanılmasını, təşkilini və göndərilməsini təmin edir. Web-server web-brauzerdən qəbul etdiyi sorğu əsasında soruşulan sənədin elektron surətini istifadəçiyə göndərir. Belə sorğuların emal edilməsi və yerinə yetirilmə ardıcıllığı HTTP protokolu vasitəsilə yerinə yetirilir.
@@ -53,26 +57,49 @@
 
     - Web Server Gateway Interface - Python'da yazılan kodun web-serverin başa düşəcəyi hala gətirən interfeysdir. Veb server request'ləri WSGI'ə göndərir, WSGI isə proramınızı işə salıb bu requestin cavablarını HTML olaraq veb serverə çatdırır.
 
+- BookStore
+    
+    - Demeli ilk once 3 eded class yaradilmalidir .
+        
+        - book_info (class-name)
 
-Web Server və WSGI arasındakı fərqlər nələrdir?
-WSGI, veb serverdən fərqli portda işləyir. Yəni, veb serverlər pythonda yazılmış kodu başa düşmürlər bunun üçün WSGI'dən istifadə edirlər
+            - def init ( 
+                - book_topic
+                - book_year
+                - book_page
+                - book_author
+            )
+
+        - book_sales (class-name)
+
+            - def init ( 
+                - book_number
+                - book_cost
+                - book_sale
+            )
+
+        - store_employes (class_name)
+
+            - def init ( 
+                - store_number
+                - store_cost
+                - store_sale
+            )
 
 
-HTTP Request nədir?
-Client server tərəfindən veb serverə verilən sorğudur. Əsas iki yerə bölünür:
-
-GET request
-POST request
-GET,POST request nə deməkdir?
-GET request veb serverdən sadəcə məlumat alır.
-POST request isə veb serverə məlumat daxil edir.
 
 
-Flask framework necə işləyir?
-Web saytın işləmə məntiqi
 
-Flask (django da həmçinin) jinja2 templete dilindən istifadə edir. Flask ümumiyyətlə python üçün yazılmış bir framework'dür. Vebə bir request göndərdiyimiz zaman, məlumat database'dən alınır, ORM'ə ötürülür, ordan flask framework'ə daha sonra isə HTML olaraq bizə qayıdır.
-URL nədir? Detalları nədən ibarətdir?
-Uniform Resource Loader - kompüterin serverlə əlaqə qurması üçün istifadə olunur. Domain kimi, ip ünvanlarını sözə çevirərək daha asan yaddaqalan edir.
-Virtual environment nədir? Nə üçün istifadə olunur?
-Hər bir layihə üçün ayrıca virtual bir mühit yaratmaq üçün istifadə olunur. Əgər hər layihə üçün eyni flask'dən istifadə etsək, flask'də baş verəcək hər dəyişiklik (update) avtomatik olaraq bütün layihələrdə dəyişəcək. Bu isə bir çox hallarda istəməyəcəyimiz bir şeydir. Bu səbəbdən virtual environment bizim üçün daha əlverişlidir.
+  - class.
+    - class adi: Bookinfo.
+    - def init (self,KitabinAdi,yazar,buraxilish ili,nesriyatevi,kitabinmovzusu).
+    - Sonra self.yazar... .
+  - 2-ci class
+    - class adi: Booksales.
+    - def init (self,kitabinSayi,kitabinShatisdaOlmagi(olmamagi),kitabinQiymeti,satishTarixi,endirim,).
+    - Sonra self.kitabinQiymeti... .
+  - 3-ci class
+    - class adi: Employees.
+    - def init (self,ishebashdamaTarixi,adi,soyadi,maash,vezifesi).
+    - Sonra self.maash... .
+

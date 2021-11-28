@@ -40,8 +40,8 @@ print("""
         - type 2 to enter the profile .
         - type 3 to left the program .
    """)
-#     - Əsas menu
-#         - Qeydiyyatdan keç
+   
+#   - Task
 #     - Əsas menu (ready)
 #         - Qeydiyyatdan keç (ready)
 #             - Ad (doldurulması zəruridir)
