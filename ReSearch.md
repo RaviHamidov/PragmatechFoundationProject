@@ -81,25 +81,10 @@
         - store_employes (class_name)
 
             - def init ( 
-                - store_number
-                - store_cost
-                - store_sale
+                - store_staff
+                - store_name
+                - store_surname
+                - store_salary
             )
 
-
-
-
-
-  - class.
-    - class adi: Bookinfo.
-    - def init (self,KitabinAdi,yazar,buraxilish ili,nesriyatevi,kitabinmovzusu).
-    - Sonra self.yazar... .
-  - 2-ci class
-    - class adi: Booksales.
-    - def init (self,kitabinSayi,kitabinShatisdaOlmagi(olmamagi),kitabinQiymeti,satishTarixi,endirim,).
-    - Sonra self.kitabinQiymeti... .
-  - 3-ci class
-    - class adi: Employees.
-    - def init (self,ishebashdamaTarixi,adi,soyadi,maash,vezifesi).
-    - Sonra self.maash... .
 
