@@ -113,25 +113,20 @@
         
         - OOP 
 
-            - OOP ( Objected Oriented Programming ), adından da göründüyü kimi, obyekt yönümlü proqramlaşdırma texnikasıdır. Başqa sözlə, bu proqramlaşdırma texnikasında hər şey bir obyektdir. Bəs bu obyekt nədir? Obyektlərin mövcud və ya qurulmuş strukturlarımızın nümayəndələri və ya nümunələri olduğunu deyə bilərik (type və ya classda deyə bilərik). Real həyatdan misal gətirsək, Biz öz növümüzün bir nümunəsi olduğumuz üçün hamımız obyektik. Gördüyümüz hər şey bir obyektdir. Ətrafımızda mövcud olan hər şey bir obyektdir.
-            
-            - OOP əsasında 2 növ proqramlaşdırma dili var.
+            - OOP ( Objected Oriented Programming ), adından da göründüyü kimi, obyekt yönümlü proqramlaşdırma texnikasıdır. Başqa sözlə, bu proqramlaşdırma texnikasında hər şey bir obyektdir. Bəs bu obyekt nədir? Obyektlərin mövcud və ya qurulmuş strukturlarımızın nümayəndələri və ya nümunələri olduğunu deyə bilərik (type və ya classda deyə bilərik). Real həyatdan misal gətirsək, Biz öz növümüzün bir nümunəsi olduğumuz üçün hamımız obyektik. Gördüyümüz hər şey bir obyektdir. Ətrafımızda mövcud olan hər şey bir obyektdir. OOP əsasında 2 növ proqramlaşdırma dili var: Class əsaslı Məsələn, C# və Prototip əsaslı Məsələn, Javascript.
 
-                - Class əsaslı Məsələn, C#.
-                - Prototip əsaslı Məsələn, Javascript.
+                - Abstraction
 
-            - Abstraction
+                    - Abstraction lazımsız təfərrüatlara məhəl qoymamaqla və məqsəd üçün vacib olana diqqət yetirməklə classların müəyyənləşdirilməsi prosesidir. Müəyyən bir tətbiq üçün nəyin uyğun olduğuna diqqət yetirmək üçün lazımsız detalların abstraksiyasından bəhs edir. Buradan başlasaq, ətrafımızda gördüyümüz hər şey əslində abstraksiyaya daxildir. Yəni gördüyümüz qədər mövcuddurlar. Abstraksiyaya avtomobilin idarə olunması prinsipindan numune verek : Sürücünün qaz pedalına və əyləcə basdıqında və ya skorsu dəyişdirdiyi zaman nə baş verdiyini bilməsi lazım deyil. O, yalnız giriş və çıxışları öyrənərək avtomobili rahatca idarə edə bilər.
 
-                - Abstraction lazımsız təfərrüatlara məhəl qoymamaqla və məqsəd üçün vacib olana diqqət yetirməklə classların müəyyənləşdirilməsi prosesidir. Müəyyən bir tətbiq üçün nəyin uyğun olduğuna diqqət yetirmək üçün lazımsız detalların abstraksiyasından bəhs edir. Buradan başlasaq, ətrafımızda gördüyümüz hər şey əslində abstraksiyaya daxildir.Yəni gördüyümüz qədər mövcuddurlar. Abstraksiyada. Məsələn, istifadə etdiyimiz telefon onun tərkibindəki quruluşun abstraksiyasıdır.
+                - Encapsulation
 
-            - Encapsulation
+                    - Deyə bilərik ki, Encapsulation, yaratdığımız struktur daxilində detalları gizlətmək və/və ya əhatə etmək üçün istifadə edilən bir texnikadır. Yenə telefonla davam etsək, Bizim daxil ola biləcəyimiz düymələrimiz var ( təbiiki qalmişsa əgər ), Bu düymələrlə əməliyyatlar edərkən arxa tərəfdə məlumatların harada saxlandığı və ya arxa tərəfdəki proseslər və s. kimi xüsusiyyətlərə girişimiz yoxdur. Biz yalnız public funksiyalara daxil ola bilərik.(Acces Modifiers)
 
-                - Deyə bilərik ki, Encapsulation, yaratdığımız struktur daxilində detalları gizlətmək və/və ya əhatə etmək üçün istifadə edilən bir texnikadır. Yenə telefonla davam etsək, Bizim daxil ola biləcəyimiz düymələrimiz var ( təbiiki qalmişsa əgər ), Bu düymələrlə əməliyyatlar edərkən arxa tərəfdə məlumatların harada saxlandığı və ya arxa tərəfdəki proseslər və s. kimi xüsusiyyətlərə girişimiz yoxdur. Biz yalnız public funksiyalara daxil ola bilərik.(Acces Modifiers)
+                - Inheritence
 
-            - Inheritence
+                    - Varislik , Xüsusiyyətin bir obyektdən digər obyektə köçürülməsidir. Valideynlərdən övladlarına keçən xüsusiyyətləri misal göstərə bilərik. Burada məqsəd reusebility’i  təmin etməkdir. İrsi alinan class Base class və ya Super-class, İrsi qalan class isə Sub class və ya Derived class adlanır.
 
-                - Varislik , Xüsusiyyətin bir obyektdən digər obyektə köçürülməsidir. Valideynlərdən övladlarına keçən xüsusiyyətləri misal göstərə bilərik. Burada məqsəd reusebility’i  təmin etməkdir. İrsi alinan class Base class və ya Super-class, İrsi qalan class isə Sub class və ya Derived class adlanır.
+                - Polymorphism
 
-            - Polymorphism
-
-                - Polimorfizm, Base Class daxilinde yer alan bir davranisi, Derived Class icerisinden deyisdire bilmek qabiliyyetini təmin etməklə mesgul olur. Yeni Base class daxilinde davranış override ediləbilmektedir. İndiki şəraitdə misal gətirsək, Hər bir futbolçunun özünəməxsus xüsusiyyətləri var, Futbolçu bizim Baza Classimizdir, Və vəzifələr var. Müdafiəçi, Yarımmüdafiəçi, Hücumçu. Qoy bunlar bizim Derived class-larimiz olsun. İstənilən oyunçu pas ata bilər. Amma bütün oyuncular pas-i eyni sekilde ata bilmez . Buna görə də, pas ilə əlaqəli xüsusiyyət, yerə görə override oluna bilər.
+                    - Polimorfizm, Base Class daxilinde yer alan bir davranisi, Derived Class icerisinden deyisdire bilmek qabiliyyetini təmin etməklə mesgul olur. Yeni Base class daxilinde davranış override ediləbilmektedir. İndiki şəraitdə misal gətirsək, Hər bir futbolçunun özünəməxsus xüsusiyyətləri var, Futbolçu bizim Baza Classimizdir, Və vəzifələr var. Müdafiəçi, Yarımmüdafiəçi, Hücumçu. Qoy bunlar bizim Derived class-larimiz olsun. İstənilən oyunçu pas ata bilər. Amma bütün oyuncular pas-i eyni sekilde ata bilmez . Buna görə də, pas ilə əlaqəli xüsusiyyət, yerə görə override oluna bilər.
