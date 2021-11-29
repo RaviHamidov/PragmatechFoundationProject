@@ -36,7 +36,7 @@
 
     - Package modullar toplusudur deyə bilərik. Modulardan daha geniş bir qavramdır. Python'da ümumiyyətlə package'lərdən çox istifadə olunur. Hər sahə üçün ayrı bir package var. Məsələn, web application yazmaq üçün django, flask istifadə olunur. Yəni, bu framework'lər özlüyündə bir neçə moduldan ibarətdir.
 
-- Differences between module and package
+- Differences between Module and Package
 
     - Yuxarıda da qeyd etdiyim kimi, package modullar toplusudur. Məsələn, os.py bir moduldur, django isə package'dir. Eyni zamanda hər package bir moduldur, ancaq modullar bir package deyildir. Yəni 'venv' package'inə biz 'venv' modulu da deyə bilərik.
 
@@ -44,8 +44,12 @@
 
     - JSON (javascript Object Notation) — sadə verilənlər strukturlarını təmsil etmək üçün nəzərdə tutulmuş bir standalone məlumat mübadiləsi formatıdır. Əsasən iki sistem arasında məlumat mübadiləsi üçün istifadə olunur. Məsələn, JSON-dan istifadə edərək server və veb tətbiqi arasında məlumat ötürə bilərsiniz.
 
+- Differences between Library and FrameWork
+
+    - Library və FrameWork fərqləndiyi məqam texniki hissədir. İkisi arasındakı əsas texniki fərq kodun necə çağırıldığıdır. Library-dən istifadə edərkən library sizə bəzi xüsusiyyətlər verərək ondan istifadə etmənizi təmin edir, bu sayədə aldığınız kodu öz sisteminizdə tətbiq edərkən kodu harada və nə vaxt istifadə edəcəyinizə müdaxilə etmir və ya diktə etmir. Digər tərəfdən, Framework, Library-dən fərqli olaraq, kodu harada və nə vaxt istifadə edəcəyimizi xüsusiyyətinə uyğun olaraq söyləyir, və biz bu funksiyadan istifadə edəcəyik, əgər Framework sənəddə göstərildiyi kimi istifadə edilməsə, istifadədən çıxacaq.
 
 - PIP
+
     - PIP python paketlərini idarə etmə sistemidir.PIP vasitəsi ilə python proqram təminatı paketlərini yükləmək və idarə etmək mümkündür,PIP Python paketləri və ya istəsəniz modullar üçün paket meneceridir.
 
 
@@ -56,6 +60,22 @@
 - WSGI 
 
     - Web Server Gateway Interface - Python'da yazılan kodun web-serverin başa düşəcəyi hala gətirən interfeysdir. Veb server request'ləri WSGI'ə göndərir, WSGI isə proramınızı işə salıb bu requestin cavablarını HTML olaraq veb serverə çatdırır.
+
+- Differences between WSGI and Web Server
+
+    - WSGI, veb serverdən fərqli portda işləyir. Yəni, veb serverlər pythonda yazılmış kodu başa düşmürlər bunun üçün WSGI'dən istifadə edirlər
+
+- HTTP Request 
+    
+    - Client server tərəfindən veb serverə verilən sorğudur. Əsas iki yerə bölünür:
+
+        - GET request
+        - POST request
+        
+- HTTP GET,POST Request
+
+    - GET request veb serverdən sadəcə məlumat alır.    
+    - POST request isə veb serverə məlumat daxil edir.
 
 - BookStore
     
