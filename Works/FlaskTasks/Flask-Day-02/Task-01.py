@@ -131,4 +131,4 @@ def ready():
         show.user_email()
         show.user_password()
         show.user_number()
-        show.brief_info()
+        show.brief_info() 
