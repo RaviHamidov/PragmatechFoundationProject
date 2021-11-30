@@ -20,7 +20,7 @@ def index():
 
 @app.route('/about')
 def about():
-    return f""" <h3>Hello World</h3>"""
+    return f"""<h1>Hello World</h1>"""
 
 if __name__=='__main__':
     app.run(debug=True)
