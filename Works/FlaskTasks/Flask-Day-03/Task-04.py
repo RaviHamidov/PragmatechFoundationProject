@@ -10,5 +10,3 @@ def main():
     print(obj.x,obj.y)
     
 main()
-
-#Patient 

@@ -7,5 +7,3 @@ class test:
     
 obj=test()
 obj.display()
-
-#Patient
