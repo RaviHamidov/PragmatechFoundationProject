@@ -12,3 +12,5 @@ obj=A()
 obj2=B()
 
 print(obj.two(), obj2.two())
+
+#Patient
