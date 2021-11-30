@@ -4,6 +4,5 @@ class change:
 
 x = change(1,2,3)
 y = getattr(x,'a')
-
 setattr(x,'a',y+1)
 print(x.a)
