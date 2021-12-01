@@ -9,7 +9,7 @@
     - [Kodlar](https://github.com/RaviHamidov/MyPortFolio)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, Bootstrap 5, JavaScript.
 
-- [Background Changer](https://ravihamidov.github.io/0BackGroundChanger/)
+- [Background Changer](https://ravihamidov.github.io/BackGroundChanger/)
     - [Kodlar](https://github.com/RaviHamidov/BackGroundChanger)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript.
 
@@ -29,8 +29,8 @@
     - [Kodlar](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/RockPaperScissorsGame)
     - İşdə istifadə olunan texnologiyalar: Python.
 
-- [Quiz Game](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/07.QuizGame)
-    - [Kodlar](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/07.QuizGame)
+- [Quiz Game](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/QuizGame)
+    - [Kodlar](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/QuizGame)
     - İşdə istifadə olunan texnologiyalar: Python.
     
 ### Tədris müddətində yazdığım məqalələr
