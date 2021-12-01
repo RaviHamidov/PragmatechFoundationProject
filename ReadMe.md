@@ -5,28 +5,28 @@
 - Tədrisi başa vurduğum tarix : - - 2021
 
 ###  Tədris müddətində gördüyüm işlər
-- [PortFolio](https://ravihamidov.github.io/02.MyPortFolio/)
-    - [Kodlar](https://github.com/RaviHamidov/02.MyPortFolio)
+- [PortFolio](https://ravihamidov.github.io/MyPortFolio/)
+    - [Kodlar](https://github.com/RaviHamidov/MyPortFolio)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, Bootstrap 5, JavaScript.
 
-- [Background Changer](https://ravihamidov.github.io/05.BackGroundChanger/)
-    - [Kodlar](https://github.com/RaviHamidov/05.BackGroundChanger)
+- [Background Changer](https://ravihamidov.github.io/0BackGroundChanger/)
+    - [Kodlar](https://github.com/RaviHamidov/BackGroundChanger)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript.
 
-- [Counter](https://ravihamidov.github.io/06.Counter/)
-    - [Kodlar](https://ravihamidov.github.io/06.Counter/)
+- [Counter](https://ravihamidov.github.io/Counter/)
+    - [Kodlar](https://ravihamidov.github.io/Counter/)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript.
 
-- [AutoTextWriter](https://ravihamidov.github.io/05.AutoTextWriter/)
-    - [Kodlar](https://github.com/RaviHamidov/07.AutoTextWriter)
+- [AutoTextWriter](https://ravihamidov.github.io/AutoTextWriter/)
+    - [Kodlar](https://github.com/RaviHamidov/AutoTextWriter)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3.
 
-- [Digital Rain ( Matrix edition )](https://ravihamidov.github.io/06.DigitalRain/)
-    - [Kodlar](https://github.com/RaviHamidov/06.DigitalRain)
+- [Digital Rain ( Matrix edition )](https://ravihamidov.github.io/DigitalRain/)
+    - [Kodlar](https://github.com/RaviHamidov/DigitalRain)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript.
 
-- [Rock,Paper or Scissors Game](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/06.RockPaperScissorsGame)
-    - [Kodlar](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/06.RockPaperScissorsGame)
+- [Rock,Paper or Scissors Game](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/RockPaperScissorsGame)
+    - [Kodlar](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/RockPaperScissorsGame)
     - İşdə istifadə olunan texnologiyalar: Python.
 
 - [Quiz Game](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/07.QuizGame)
