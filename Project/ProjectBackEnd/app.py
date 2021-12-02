@@ -1,12 +1,12 @@
 from flask import Flask,render_template
-from data import cards
+from data import count-item
 
 app=Flask(__name__)
 
 @app.route('/')
 def index():
 
-    return render_template('index.html',cards=cards)
+    return render_template('index.html',count-item=count-item)
 
 
 @app.route('/about')
