@@ -6,7 +6,7 @@ app=Flask(__name__)
 @app.route('/')
 def index():
 
-    return render_template('index.html',count-item=count-item)
+    return render_template('index.html',cards=cards)
 
 
 @app.route('/about')
