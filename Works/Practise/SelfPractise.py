@@ -51,7 +51,7 @@ print(type(human))
 human = "True"
 print("Realy that is a pizza? :" + str(human)) 
 
-# StepThree " Multiple assignment in Python "
+# StepThree "Multiple assignment in Python"
 
 name = "Pizza"
 length = "36"+ " " + "cm"
@@ -75,7 +75,7 @@ print(pizzaItaliano)
 print(pizzaMix)
 print(pizzaVegi)
 
-# StepFour " String Methods in Python "
+# StepFour "String Methods in Python"
 
 pizza = "italiano"
 
@@ -91,7 +91,7 @@ print(pizza.replace("i","a"))
 print(pizza.replace("a","i"))
 print(pizza*3)
 
-# StepFive " Type casting in Python"
+# StepFive "Type casting in Python"
 
 pizzaTotal = 5 #int
 pizzaLength = 15.0 #float
@@ -106,7 +106,7 @@ print(pizzaLength)
 
 print(int(pizzaLength))
 
-# StepSix " User Input "
+# StepSix "User Input "
 
 name = input("What is your name? :")
 age = int(input("How old are you? :"))
@@ -116,7 +116,7 @@ print("Hello " + name)
 print("You are " + str(age) + " years old")
 print("You are " + str(height) + "cm tall")
 
-# StepSeven " Math Functions "
+# StepSeven "Math Functions"
 
 import math
 
@@ -134,7 +134,7 @@ z = 2
 # print(max(x,y,z))
 print(min(x,y,z))
 
-# StepEight " String slicing "
+# StepEight "String slicing "
 
 name = "Mozarella Pizza"
 
@@ -160,7 +160,7 @@ slice = slice(7,-4)
 print(website1[slice])
 print(website2[slice])
 
-# StepNine " if statement "
+# StepNine "If statement "
 
 age = int(input("Balacanin nece yasi var ? : "))
 
@@ -173,7 +173,7 @@ elif age <= 10 :
 else :
     print("Yeke kisi olsun")
 
-# StepTen " Logical Operators (and,or,not)"
+# StepTen "Logical Operators (and,or,not)"
 
 temp = int(input("Qeqes colde hava necedir? :"))
 
@@ -193,7 +193,7 @@ elif not temp < 20 or temp > 0 :
     print("Nem e brat belede yeni cox yaxci deyl vezyet ruscadi")
     print("Qal evde koduvu yaz sjjsjssjsjsjs !")
 
-# StepEleven " While loop in Python"
+# StepEleven "While loop in Python"
 
 while 1 == 1:
     name = print("I really love pizza !")
@@ -212,7 +212,7 @@ while not name:
 
 print("Hello " + name)
 
-# StepTwelve " For loop in Python"
+# StepTwelve "For loop in Python"
 
 import time 
 
@@ -230,7 +230,7 @@ for seconds in range(10,0,-1):
     time.sleep(1)
 print("Heri men!")
 
-# StepThreeteen " Nested loop in Python"
+# StepThreeteen "Nested loop in Python"
 
 rows = int(input("How many rows?: "))
 columns = int(input("How many columns?: "))
@@ -241,7 +241,7 @@ for i in range(rows):
         print(symbol, end = "")
     print()
 
-# StepFourteen " Loop Control in Python"
+# StepFourteen "Loop Control in Python"
 
 while True :
     name = input("Tez advi yaz ba frldaq eleme ha yosa cekpot vermerem ! :")
@@ -268,7 +268,7 @@ for num in range (1,6):
         continue
     print(num)
 
-# StepFiveteen " list in Python"
+# StepFiveteen "List in Python"
 
 food = ["pizza","hamburger","hotdog","spaghetti","pudding"]
 
