@@ -124,6 +124,9 @@ def game_over():
     canvas.create_text(canvas.winfo_width()/2, canvas.winfo_height()/2,
                        font=('consolas',70), text="GAME OVER", fill="red", tag="gameover")
 
+def play_again():
+    pass
+
 
 window = Tk()
 window.title("Snake game")
