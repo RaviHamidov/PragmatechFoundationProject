@@ -1,14 +1,14 @@
 from tkinter import *
 import random
 
-GAME_WIDTH = 700
-GAME_HEIGHT = 700
-SPEED = 50
-SPACE_SIZE = 50
-BODY_PARTS = 3
-SNAKE_COLOR = "#00FF00"
-FOOD_COLOR = "#FF0000"
-BACKGROUND_COLOR = "#000000"
+GAME_WIDTH = 500
+GAME_HEIGHT = 500
+SPEED = 90
+SPACE_SIZE = 20
+BODY_PARTS = 4
+SNAKE_COLOR = "#008000"
+FOOD_COLOR = "#000000"
+BACKGROUND_COLOR = "#FEFEFA"
 
 
 class Snake:
@@ -35,7 +35,7 @@ class Food:
 
         self.coordinates = [x, y]
 
-        canvas.create_oval(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR, tag="food")
+        canvas.create_rectangle(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR, tag="food")
 
 
 def next_turn(snake, food):
@@ -121,8 +121,10 @@ def check_collisions(snake):
 def game_over():
 
     canvas.delete(ALL)
+    canvas.create_text(canvas.winfo_width()/2, canvas.winfo_height()/3,
+                       font=('consolas',50), text="Game Over ;)", fill="black", tag="gameover")
     canvas.create_text(canvas.winfo_width()/2, canvas.winfo_height()/2,
-                       font=('consolas',70), text="GAME OVER", fill="red", tag="gameover")
+                       font=('consolas',30), text="Do you want to play again ?", fill="black")
 
 def play_again():
     pass
