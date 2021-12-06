@@ -117,12 +117,21 @@ def check_collisions(snake):
 
     return False
 
+def play_again():
+    window.mainloop()
 
-def game_over():
+def game_over(self):
 
     canvas.delete(ALL)
     canvas.create_text(canvas.winfo_width()/2, canvas.winfo_height()/2,
                        font=('consolas',50), text="Game Over ;)", fill="black", tag="gameover")
+    
+    window = Tk()
+    button = Button(window, text = "Play Again")
+    button.config(command = play_again)
+    button.config(bg='#ff6200')
+    button.pack()
+    window.mainloop()
 
 window = Tk()
 window.title("Snake game")
