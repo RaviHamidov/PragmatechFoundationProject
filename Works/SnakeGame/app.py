@@ -120,7 +120,7 @@ def check_collisions(snake):
 def play_again():
     window.mainloop()
 
-def game_over(self):
+def game_over():
 
     canvas.delete(ALL)
     canvas.create_text(canvas.winfo_width()/2, canvas.winfo_height()/2,
