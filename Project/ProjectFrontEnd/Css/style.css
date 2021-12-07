@@ -63,7 +63,7 @@ h6 {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: -1;    
+    z-index: -1;
 }
 
 /* section-overlay-end */
@@ -495,15 +495,13 @@ h6 {
 .progress-line.flask span::after {
     content: "75%";
 }
-
 /* about-tech-skills-end */
 
 /* about-pro-skills-start */
-.about-pro-skills-main {
+/* .about-pro-skills-main {
     place-items: center;
-    padding: 0 0 50px 0;
+    padding: 0 0 40px 5%;
 }
-
 .circular-info {
     padding: 20px 0px;
     font-family: "Poppins", sans-serif;
@@ -515,7 +513,6 @@ h6 {
     height: 100px;
     width: 100px;
     position: relative;
-    margin: o auto;
 }
 
 .circular .inner,
@@ -639,7 +636,7 @@ h6 {
         transform: rotate(270deg);
         z-index: 4;
     }
-}
+} */
 
 /* about-pro-skills-end */
 
@@ -876,15 +873,15 @@ h6 {
 /* blog-end */
 
 /* section-footer-start */
+#footer {
+    height: 100vh;
+}
 
 /* section-footer-end */
 
 /* footer-contact-start */
-.contact {
-    padding-bottom: 100px;
-}
 .contact-main {
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
     margin-top: 30px;
     background: rgba(0, 0, 0, 0.9);
     border-radius: 6px;
@@ -895,7 +892,7 @@ h6 {
     margin-right: -15px;
 }
 
-.contact-main .contact-main-content .content-item {
+.contact-main .content-item {
     color: #444444;
     padding: 20px;
     background: rgba(255, 255, 255, 0.08);
@@ -907,7 +904,7 @@ h6 {
     border-radius: 6px;
 }
 
-.contact-main .contact-main-content .content-item>i {
+.contact-main .content-item>i {
     font-size: 24px;
     color: #18d26e;
     border-radius: 50%;
@@ -917,14 +914,14 @@ h6 {
     margin: 0.5rem 0;
 }
 
- .contact-main .contact-main-content .content-item h3 {
+.contact-main .content-item h3 {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 700;
     margin: 10px 0 8px 68px;
 }
 
-.contact-main .contact-main-content .content-item p {
+.contact-main .content-item p {
     padding: 0;
     color: #fff;
     line-height: 24px;
@@ -932,12 +929,12 @@ h6 {
     margin: 0 0 0 68px;
 }
 
-.contact-main .contact-main-content .content-item .contact-social-links {
+.contact-main .content-item .contact-social-links {
     margin: 5px 0 0 68px;
     display: flex;
 }
 
-.contact-main .contact-main-content .content-item .contact-social-links a {
+.contact-main .content-item .contact-social-links a {
     font-size: 18px;
     display: inline-block;
     color: #fff;
@@ -946,85 +943,13 @@ h6 {
     transition: 0.3s;
 }
 
-.contact-main .contact-main-content .content-item .contact-social-links a:hover {
+.contact-main .content-item .contact-social-links a:hover {
     color: #18d26e;
 }
 
-.contact-main .contact-main-content .content-item .contact-social-links a i {
+.contact-main .content-item .contact-social-links a i {
     line-height: 24px;
     font-size: 20px;
 }
 
-.contact-main-form .contact-form {
-    background: rgba(255, 255, 255, 0.08);
-    margin-left: 15px;
-    margin-right: 15px;
-    border-radius: 6px;
-    padding: 30px;
-}
-
-.contact-main-form .contact-form .form-group {
-    color: #444444;
-    transition: all ease-in-out 0.3s;
-    border-radius: 6px;
-    padding-bottom: 1rem;
-    box-sizing: border-box;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-.contact-main-form .contact-form .validate {
-    display: none;
-    color: red;
-    margin: 0 0 15px 0;
-    font-weight: 400;
-    font-size: 13px;
-}
-
-.contact-main-form .contact-form input,
-.contact-main-form .contact-form textarea {
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.08);
-    border: 0;
-    transition: 0.3s;
-    color: #fff;
-    box-sizing: border-box;
-    border-radius: 6px;
-}
-
-.contact-main-form .contact-form input {
-    padding: 12px 15px;
-}
-
-.contact-main-form .contact-form textarea {
-    padding: 15px 15px;
-}
-
-.contact-main-form .contact-form .sub-btn {
-    text-align: center;
-}
-
-.contact-main-form .contact-form button[type="submit"] {
-    background: #18d26e;
-    border: 0;
-    padding: 15px 25px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 4px;
-    font-size: inherit;
-    line-height: inherit;
-}
-
-.contact-main-form .contact-form button[type="submit"]:hover {
-    background: #15bb62;
-} 
-
-
 /* footer-contact-end */
-
-
-
-
