@@ -5,7 +5,7 @@
 - Tədrisi başa vurduğum tarix : - - 2021
 
 ###  Tədris müddətində gördüyüm işlər
-- [PortFolio](https://ravihamidov.github.io/MyPortFolio/)
+- [PortFolio](https://thehamidov42.herokuapp.com/)
     - [Kodlar](https://github.com/RaviHamidov/MyPortFolio)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, Bootstrap 5, JavaScript.
 
