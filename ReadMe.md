@@ -23,7 +23,7 @@
 
 - [Digital Rain ( Matrix edition )](https://ravihamidov.github.io/DigitalRain/)
     - [Kodlar](https://github.com/RaviHamidov/DigitalRain)
-    - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript.
+    - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript. 
 
 - [Rock,Paper or Scissors Game](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/RockPaperScissorsGame)
     - [Kodlar](https://github.com/RaviHamidov/01.PragmatechFoundationProject/tree/main/Works/RockPaperScissorsGame)
