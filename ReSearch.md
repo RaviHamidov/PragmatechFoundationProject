@@ -127,6 +127,6 @@
 
                     - Varislik , Xüsusiyyətin bir obyektdən digər obyektə köçürülməsidir. Valideynlərdən övladlarına keçən xüsusiyyətləri misal göstərə bilərik. Burada məqsəd reusebility’i  təmin etməkdir. İrsi alinan class Base class və ya Super-class, İrsi qalan class isə Sub class və ya Derived class adlanır.
 
-                - Polymorphism  
+                - Polymorphism   
 
                     - Polimorfizm, Base Class daxilinde yer alan bir davranisi, Derived Class icerisinden deyisdire bilmek qabiliyyetini təmin etməklə mesgul olur. Yeni Base class daxilinde davranış override ediləbilmektedir. İndiki şəraitdə misal gətirsək, Hər bir futbolçunun özünəməxsus xüsusiyyətləri var, Futbolçu bizim Baza Classimizdir, Və vəzifələr var. Müdafiəçi, Yarımmüdafiəçi, Hücumçu. Qoy bunlar bizim Derived class-larimiz olsun. İstənilən oyunçu pas ata bilər. Amma bütün oyuncular pas-i eyni sekilde ata bilmez . Buna görə də, pas ilə əlaqəli xüsusiyyət, yerə görə override oluna bilər.
